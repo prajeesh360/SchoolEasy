@@ -10,12 +10,10 @@ public class Launcher implements CommandLineRunner {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(Launcher.class, args);
-
     }
 
     @Override
     public void run(String... args) throws Exception {
         System.out.println("Server started");
     }
-}
 }
